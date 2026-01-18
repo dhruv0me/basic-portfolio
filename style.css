@@ -1,58 +1,65 @@
 
-img {
-        width: 200px;
-        height: auto;
-        margin: 0 auto;
-        display: block;
-    }
+    img {
+            width: 200px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            border-color:  #E2E8F0;
 
-h1{
-        text-align: center;
-        font-size: 36px;
-        color: #0F172A;
-       }
-.profile-header {
-          text-align: center;  
-        background-color: #FFFFFF; 
-        color: #0F172A;
-     }
-     
-body {
-        background-color: #F7FDFB;
-    }
-a {
-        color:;
-        text-align: center;
-        font-size: 20px;
-        display: block;
-        margin-bottom: 15px;
-    }
-    h2 {
-        text-decoration: underline;
-        text-align: center;
-        color: #0f172a;
+        }
 
-    }
-    /*
+    h1{
+            text-align: center;
+            font-size: 36px;
+            color: #0F172A;
+        }
+    .profile-header {
+            text-align: center;  
+            background-color: #22C55E; 
+            color: #0F172A;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+    section 
+        {
+            background-color: #F7FDFB;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-color:  #E2E8F0;
+        }
+        
+    body 
+    {
+            background-color: #FFFFFF;
+        }
+    a  {
+            color:blue;
+            text-align: center;
+            font-size: 20px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        h2 {
+            text-decoration: underline;
+            text-align: center;
+            color: #0f172a;
 
-Core Colors (Balanced, Not Loud)
+        }
+        /*
 
-Primary Background (White): #FFFFFF
-
-Soft Section Background: #F7FDFB
-A barely-there green tint—feels fresh, not sterile.
-
-Primary Text: #0F172A
-Deep slate instead of black (easier on eyes).
-
-Secondary Text: #475569
-Calm gray for descriptions.
-
-Accent Green: #22C55E
-Modern, confident green (Tailwind-style, very current).
-
-Optional (Use Sparingly)
-
-Accent Hover: #16A34A
-
-Subtle Border: #E2E8F0*/
+    Core Colors (Balanced, Not Loud)
+    Primary Background (White): #FFFFFF
+    Soft Section Background: #F7FDFB
+    A barely-there green tint—feels fresh, not sterile.
+    Primary Text: #0F172A
+    Deep slate instead of black (easier on eyes).
+    Secondary Text: #475569
+    Calm gray for descriptions.
+    Accent Green: #22C55E
+    Modern, confident green (Tailwind-style, very current).
+    Optional (Use Sparingly)
+    Accent Hover: #16A34A
+    Subtle Border: #E2E8F0*/
