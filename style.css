@@ -1,92 +1,153 @@
-    .ph {
-        background-color: #FFFFFF; /* Primary Background */
-        color: #0F172A; /* Primary Text */
-        border: 1px solid #E2E8F0; /* Subtle Border */
-        padding: 20px;
-        border-radius: 10px;
+body {
+    margin: 0;
+    font-style: italic ;
+    background-color: #f4f6f8;
+    color: #0F172A;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.ph {
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ph p {
+    font-style: italic;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #22C55E;
+    padding: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.contact-info {
+    background-color: #F7FDFB;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+     p {
+        margin: 5px 0;
+        color: #16A34A;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    h3 {
+        color: #22C55E;
+        margin: 10px 0;
         text-align: center;
-        margin-bottom: 20px;
-        p{
-            font-style: italic !important;
-
-        }
-
-
+        text-decoration: underline;
     }
-    .profile-pic {
-        border-radius: 70%;
-        border: 3px solid #22C55E; /* Accent Green */
-        padding: 5px;
-        transform: scale(1.08);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-        cursor: pointer;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    a {
+        text-decoration: none;
+        color: inherit;
     }
-    .contact-info 
+}
+
+.psc,
+.es,
+.ts,
+.cs,
+.projects,
+.oai {
+    background-color: #F7FDFB;
+    color: #0F172A;
+    border: 1px solid #E2E8F0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;;
+}
+
+
+.psc img,
+.es img,
+.ts img,
+.cs img,
+.projects img,
+.oai img {
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid #22C55E;
+    padding: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.psc img:hover,
+.es img:hover,
+.ts img:hover,
+.cs img:hover,
+.projects img:hover,
+.oai img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    border-color: #16A34A;
+    cursor: pointer;
+}
+
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #22C55E;
+    margin: 10px 0;
+}
+
+
+.info-page.edu {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    h1 
     {
-        background-color: #F7FDFB; /* Soft Section Background */
-        color: #0F172A; /* Primary Text */
-        border: 1px solid #E2E8F0; /* Subtle Border */
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 15px;
+        color: #22C55E;
         text-align: center;
-        p {
-            margin: 5px 0;
-            font-style: italic;
-          }
-        h3
-        {
-            color: #22C55E; /* Accent Green */
-            margin-top: 10px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        
+        text-decoration: underline;
+        padding-bottom: 10px;
     }
-    .psc, .es, .ts, .cs, .projects, .oai
-    {
-        background-color: #F7FDFB; /* Soft Section Background */
-        color: #0F172A; /* Primary Text */
-        border: 1px solid #E2E8F0; /* Subtle Border */
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 15px;
-        text-align: center;
-        font-style: italic;
-        img {
-            border-radius: 10%;
-            border: 2px solid #22C55E; /* Accent Green */
-            padding: 5px;
-        }
-        h3  
-     {
-            color: #22C55E; /* Accent Green */
-            margin-top: 10px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+    h2 {
+        color: #16A34A;
+        margin-bottom: 8px;
+        font-size: larger;
     }
-    h2 
-    {
-        color: #22C55E; /* Accent Green */
-        margin-top: 10px;
-        margin-bottom: 10px;
+    p {
+        margin: 6px 0;
+        color: #475569;
+    }
 
-    }
-        .psc img:hover,
-        .es img:hover,
-        .ts img:hover,
-        .tc img:hover,
-        .cs img:hover, 
-        .projects img:hover,
-        .oai img:hover 
-        {
-         transform: scale(1.05);
-        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-        border-color: #16A34A; /* Accent Hover */
-        }
-     
+}
+
+
 
 
 /*    Core Colors (Balanced, Not Loud)
