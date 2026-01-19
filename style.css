@@ -122,7 +122,13 @@ h2 {
 }
 
 
-.info-page.edu {
+.info-pageedu,
+.info-pageobj,
+.info-pagets,
+.info-pageproj,
+.info-pageproffsum,
+.info-pagestr
+{
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 25px;
@@ -144,9 +150,12 @@ h2 {
         margin: 6px 0;
         color: #475569;
     }
+    li {
+        margin: 4px 0;
+        color: #475569;
+    }
 
 }
-
 
 
 
