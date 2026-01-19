@@ -44,7 +44,8 @@
         }
         
     }
-    .psc, .es, .ts, .cs, .projects, .oai {
+    .psc, .es, .ts, .cs, .projects, .oai
+    {
         background-color: #F7FDFB; /* Soft Section Background */
         color: #0F172A; /* Primary Text */
         border: 1px solid #E2E8F0; /* Subtle Border */
@@ -58,6 +59,13 @@
             border: 2px solid #22C55E; /* Accent Green */
             padding: 5px;
         }
+        h3  
+     {
+            color: #22C55E; /* Accent Green */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
     }
     h2 
     {
@@ -66,16 +74,19 @@
         margin-bottom: 10px;
 
     }
-
-
-
-
-
-
-
-
-
-
+        .psc img:hover,
+        .es img:hover,
+        .ts img:hover,
+        .tc img:hover,
+        .cs img:hover, 
+        .projects img:hover,
+        .oai img:hover 
+        {
+         transform: scale(1.05);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        border-color: #16A34A; /* Accent Hover */
+        }
+     
 
 
 /*    Core Colors (Balanced, Not Loud)
