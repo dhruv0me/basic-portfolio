@@ -101,17 +101,16 @@ main {
             font-size: 24px;
             text-decoration: none;
          a{
-            color:#E2E8F0;
-            background-color: #16A34A;
-            padding: 0%;
-            width: 2px;
-            border-radius: 10%;
-            border: 4px solid #22C55E;
-            padding: 2px;
-            transform: scale(1.05);
-            box-shadow: 10 100px 399px rgba(0, 0, 0, 0.3);
-            border-color: #16A34A;
+            color:#16A34A;
+            border-radius: 18% ;
+            border: 2px solid #22C55E;
+            padding: 5px;
+            margin: 20px ;
+            transform: scale(1000%);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            box-shadow: 1 100px 399px rgba(29, 250, 40, 0.3);         
             cursor: pointer;
+
             }         
        } 
     }   
