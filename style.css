@@ -20,6 +20,8 @@ main {
     border-radius: 10px;
     text-align: center;
     margin-bottom: 20px;
+   h1 {font-family: 'kings', cursive;}
+    p {font-family: 'Lugrasimo', cursive;}
 }
 
 .ph p {
@@ -82,8 +84,38 @@ main {
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
-    text-align: center;;
-}
+    text-align: center;
+     h2{
+        color: #22C55E;
+        margin: 10px 0;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "meow script", cursive;
+     }
+     h3{
+            color: #16A34A;
+            margin: 10px 0;
+            text-align: center;
+            font-family: "caveat", cursive;
+            font-size: 24px;
+            text-decoration: none;
+         a{
+            color:#E2E8F0;
+            background-color: #16A34A;
+            padding: 0%;
+            width: 2px;
+            border-radius: 10%;
+            border: 4px solid #22C55E;
+            padding: 2px;
+            transform: scale(1.05);
+            box-shadow: 10 100px 399px rgba(0, 0, 0, 0.3);
+            border-color: #16A34A;
+            cursor: pointer;
+            }         
+       } 
+    }   
+
 
 
 .psc img,
@@ -104,7 +136,7 @@ main {
 .ts img:hover,
 .cs img:hover,
 .projects img:hover,
-.oai img:hover {
+.oai img:hover,h3 a:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     border-color: #16A34A;
