@@ -114,7 +114,17 @@ main {
             }         
        } 
     }   
+.links{
+  position:relative ;
+  padding: 10px;
+  text-align: right;
+  a{color: #16A34A;
+    padding: 10px;
+    
 
+
+   }
+}
 
 
 .psc img,
